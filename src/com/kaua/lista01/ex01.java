@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ex01 {
     public static void main(String[] args) {
+        System.out.println("ex01 - Fazer um algoritmo que leia dois números e imprima na tela o produto (multiplicação) dos dois números");
 
         Scanner input = new Scanner(System.in);
 
