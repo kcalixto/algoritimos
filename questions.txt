@@ -1,0 +1,85 @@
+1. Dado um vetor de números inteiros, fazer um programa que imprime todos os elementos do vetor.
+2. Dado um vetor de números reais, fazer um programa que some todos os elementos do vetor e imprima o
+resultado.
+3. Dado um vetor de números inteiros, fazer um programa que imprima o maior elemento do vetor.
+4. Dado um vetor de números reais, fazer um programa que imprima o menor elemento do vetor.
+5. Dado um vetor de números inteiros, fazer um programa que imprima a média dos elementos do vetor.
+6. Dado um vetor de números inteiros, fazer um programa que imprima o produto dos elementos do vetor.
+7. Dado um vetor de números inteiros e um número inteiro, fazer um programa que multiplique todos os
+elementos do vetor pelo número real dado e imprima o resultado.
+8. Dado um vetor de números inteiros e um número inteiro, fazer um programa que verifique se o número
+está presente no vetor.
+9. Dados dois vetores A e B de mesma dimensão, fazer um programa que calcule e imprima o produto de
+cada elemento de A pelo correspondente elemento de B. O resultado deve ser armazenado em um vetor
+C.
+10. Dado um vetor de números reais e um número real, fazer um programa que multiplique os elementos de
+posição ímpar do vetor pelo número real dado e imprima o resultado.
+11. Dado um vetor de números reais, fazer um programa que imprima os números maiores do que a média
+dos elementos que estão nas posições pares do vetor.
+12. Dados dois vetores A e B de mesma dimensão, fazer um programa que verifica a soma e a média de cada
+vetor, e imprime a maior soma e a menor média.
+13. Dados dois vetores A e B de mesma dimensão, fazer um programa que monte o vetor C, o qual deve ser
+composto pelos elementos do vetor A e depois pelos elementos do vetor B. Imprimir o vetor C.
+14. Dados dois vetores A e B de mesma dimensão, fazer um programa que monte o vetor C, o qual deve ser
+composto, alternadamente, por um elemento do vetor A e outro do vetor B. Imprimir o vetor C.
+15. Dado um vetor de números inteiros, fazer um programa que imprima o vetor em ordem crescente.
+16. Fazer um programa que lê uma sequência de N números inteiros positivos e reordena os elementos da
+sequência de modo que todos os números pares venham primeiro e todos os ímpares em seguida. Por
+exemplo, para a sequência [3, 6, 7, 8, 1, 2, 5, 3, 9], a saída deverá ser: [6, 8, 2, 3, 7, 1, 5, 3, 9].
+17. Dado um vetor de números reais e um número real, fazer um programa que multiplique todos os
+elementos do vetor pelo número real dado e imprima o resultado.
+18. Fazer um programa que verifica se determinado número dado está dentro de um vetor também dado.
+Caso esteja, imprimir a posição em que o número foi encontrado.
+19. Fazer um programa que imprime os elementos que estão nas posições ímpares de um vetor (começando
+na posição 1, que corresponde à posição 0 em Java). Por exemplo, para o vetor [6, 8, 2, 3, 7, 1, 5, 3, 9],
+seriam impressos os números: 6, 2, 7, 5, 9.
+20. Dado um vetor de números inteiros, fazer um programa que copie para outro vetor os número que são
+múltiplos de 3. Caso existam, imprimir os elementos que estão nas posições ímpares desse vetor.
+21. Fazer um programa que lê o nome e a nota de cada aluno de uma sala de aula. O programa deve calcular e
+imprimir a média da sala e os nomes dos alunos que tiveram notas acima da média. Sugestão: utilizar um
+vetor para os nomes e outro para as notas.
+22. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que preenche e imprime
+cada elemento da matriz com o número 20.
+23. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que preenche e imprime
+cada elemento da matriz com o número 21, se a linha for ímpar, e com 10 se a linha for par.
+24. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que preenche e imprime
+cada elemento da matriz com o número 7, se a coluna for ímpar, e com 4 se a coluna for par.
+25. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que preenche os elementos
+da matriz com o número da linha em que se encontra. Imprimir a matriz.
+26. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que preenche os elementos
+da matriz com o número da coluna em que se encontra. Imprimir a matriz.
+27. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que preenche os elementos
+da matriz com a soma do número da linha com o número da coluna em que se encontra. Imprimir a matriz.
+28. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que imprime a soma dos
+elementos de cada linha da matriz.
+29. Dada uma matriz de tamanho N x M e um vetor de M elementos, fazer um programa que preencha cada
+linha da matriz com os elementos do vetor..
+30. Dada uma matriz de tamanho N x M e um vetor de N elementos, fazer um programa que preencha cada
+coluna da matriz com os elementos do vetor.
+31. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que imprime a soma dos
+elementos de cada coluna das da matriz.
+32. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que imprime a soma dos
+elementos das colunas ímpares da matriz.
+33. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que imprime a posição
+(linha e coluna) dos elementos negativos da matriz.
+34. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que imprime a soma de
+todos os elementos da matriz.
+35. Dada uma matriz de tamanho N x M, de números inteiros, fazer um programa que imprime a média dos
+elementos positivos da matriz.
+36. Dada uma matriz de tamanho N x N, de números inteiros, fazer um programa que imprime os elementos
+da diagonal principal.
+37. Dada uma matriz de tamanho N x M, de números inteiros, imprimir o número de linhas e o número de
+colunas nulas da matriz. Por exemplo, para a matriz abaixo, deve imprimir: Duas linhas nulas e uma coluna
+nula.
+38. Dada uma matriz de tamanho N x N, de números inteiros, fazer um programa que imprime os números da
+parte superior da diagonal principal.
+39.
+Dadas duas matrizes, a primeira com N x M elementos, e a segunda com M x P elementos, fazer um
+programa que imprima o produto das duas matrizes.
+40. Dada uma matriz de tamanho N x M, de números inteiros, verificar se um dado número inteiro faz parte
+dos elementos dessa matriz. Caso faça, imprimir a posição em que esse número se encontra dentro da
+matriz.
+41. Fazer uma função que tem como parâmetro de entrada uma matriz MxN de números inteiros e fornece
+como saída o maior número dentro do matriz.
+42. Fazer um programa que lê duas matrizes A e B de números inteiros e imprima o produto do maior número
+de A pelo maior número de B.
