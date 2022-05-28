@@ -1,5 +1,7 @@
 package com.kaua.lista03;
 
+import java.util.Scanner;
+
 public class ex14 {
     public static void main(String[] args) {
         // 14. Faça uma função que receba dois números inteiros: um valor A e um valor
@@ -10,18 +12,30 @@ public class ex14 {
         // 4.
 
         System.out.println(
-                "14) 14. Faça uma função que receba dois números inteiros: um valor A e um valor N. Imprimir a soma dos N...");
+                "14. Faça uma função que receba dois números inteiros: um valor A e um valor N. Imprimir a soma dos...");
+
+        int A, N;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Digite um número: ");
+        A = Integer.parseInt(input.nextLine());
+        System.out.println("Digite outro número: ");
+        N = Integer.parseInt(input.nextLine());
+        sum(A, N);
     }
 
-    public static int calc(int a, int max){
+    public static void sum(int a, int n) {
         int sum = 0;
-        if(max <= 0){
-            return -1;
-        }
-        for(int i = a; i <= max; i++){
-            sum += i;
+        for (int i = 0; i < n; i++, a++) {
+            sum+=a;
+            if (i == n - 1) {
+                System.out.print(a);
+            } else {
+                System.out.print(a + " + ");
+            }
         }
 
-        return a + sum;
+        System.out.print(" = " + sum);
     }
 }
